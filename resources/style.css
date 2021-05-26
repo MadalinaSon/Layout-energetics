@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.page-wrapper {
+    height: 100vh;
+    box-sizing: border-box;
+    background: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Georgia, Arial, sans-serif;
+    color: #fff;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: auto;
+    height: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 60px;
+    
+}
+
+.menu a{
+    padding: 0px 16px;
+    font-size: 12px;
+}
+
+.menu .menu-item:hover {
+    color:#acfdfe;
+}
+.menu a:first-child{
+    color:#756f7b;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+}
+.sing_up{
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+        width: 70px;
+        text-align: center;
+}
+
+
+a {
+    padding: 0px;
+    color:#756f7b;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    font-family: Verdana, Georgia, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 80px;
+}
+
+h1{
+    font-family: Verdana, Georgia, Arial, sans-serif;
+   font-size: 48px;
+   padding-top: 5px;
+   padding-left: 15px;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+   color: #3d7ffa;
+}
+
+h2{
+    font-family: Verdana, Georgia, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#3a80f9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+hr{
+    float: left;
+    margin-top: 28px;
+    width: 170px;
+    margin-left: 15px;
+    color:#3a80f9;
+}
+
+article{
+    width: 350px;
+    height:auto ;
+    margin-top: 30px;
+    padding-left: 15px;
+    text-align: justify;
+    color: #3a80f9
+}
+.botton {
+    position: absolute;
+    top: 580px;
+    left: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#52d2ff, #4db5fe);
+    width: 220px;
+    height: 70px;
+}
+p{
+    color: #fff;
+    font-family: Verdana, Georgia, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 27px;
+    font-weight: lighter;
+}
