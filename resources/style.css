@@ -13,6 +13,7 @@ html, body {
     font-family: Verdana, Georgia, Arial, sans-serif;
     color: #fff;
     margin: 0px;
+    /* sugerez un padding aici pe pagina, continutul este foarte apropiat de marginea viewport-ului */
 }
 
 header{
@@ -21,6 +22,7 @@ header{
     justify-content: left;
     width: auto;
     height: 20px;
+    /* shorthand prop te-ar fi ajutat aici */
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
@@ -119,6 +121,7 @@ article{
 }
 p{
     color: #fff;
+    /* repeti font-family de foarte multe ori in pagina, e ok sa evitam sa duplicam cod, daca va trebui sa modifici, doresti sa o faci intr-un singur loc */
     font-family: Verdana, Georgia, Arial, sans-serif;
     font-size: 20px;
     text-align: center;
